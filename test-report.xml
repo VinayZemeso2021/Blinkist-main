@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Card/index.test.tsx">
+    <testCase name="it should render same bookname text" duration="224"/>
+    <testCase name="should render same writer name text" duration="43"/>
+    <testCase name="should render same time read text" duration="77"/>
+    <testCase name="should render white background color if inLibrary is true" duration="91"/>
+    <testCase name="should render different color of card body when inLibrary is false as well as in hoveredState" duration="134"/>
+    <testCase name="should renders different color od card box when inLibrary is false as well as in hoveredState" duration="67"/>
+    <testCase name="should card-library-handler be clickable and when inLIbrary is false" duration="36"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Explorer/index.test.tsx">
+    <testCase name="Explore renders Explore by category heading" duration="686"/>
+    <testCase name="Explore should recently added text to be clickable" duration="253"/>
+    <testCase name="Explore it should See popular titles to be clickable" duration="255"/>
+    <testCase name="Explore Explore by category text should be blue" duration="201"/>
+    <testCase name="Explore Nav Icon count should be 26" duration="183"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/pages/MyLibrary/index.test.tsx">
+    <testCase name="Library it renders cicular progress bar if books are not available" duration="440"/>
+    <testCase name="Library should not render cicular progress bar if books are available" duration="224"/>
+    <testCase name="Library it should render same no of finished books" duration="580"/>
+    <testCase name="Library should render same no of currently books" duration="191"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/App.test.tsx">
+    <testCase name="It renders the App Component" duration="103"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/Template/Template.test.tsx">
+    <testCase name="Template should renders circular bar if data is empty" duration="142"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/pages/EntrepreneurPage/index.test.tsx">
+    <testCase name="Home it should renders input" duration="820"/>
+    <testCase name="Home should render containers matching to data length" duration="477"/>
+    <testCase name="Home should render a circularbox if library is empty" duration="98"/>
+    <testCase name="Home clickable library handler" duration="428"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Avatar/index.test.tsx">
+    <testCase name="render the avatar" duration="99"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/pages/BookInfoPage/index.test.tsx">
+    <testCase name="it is Book Info should render circular bar if data is empty" duration="224"/>
+    <testCase name="it is Book Info should not render circular bar if data is not empty" duration="2051"/>
+    <testCase name="it is Book Info should render tabs with clickable option" duration="2169"/>
+    <testCase name="it is Book Info should renders third tab with clickable option" duration="2099"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/Banner1/index.test.tsx">
+    <testCase name="Banner  Heading" duration="205"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/ProgressBar/index.test.tsx">
+    <testCase name="should render progressbar" duration="141"/>
+    <testCase name="should renders progressbar with value" duration="32"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/Logo/index.test.tsx">
+    <testCase name="should renders Logo" duration="68"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/NavIcon/index.test.tsx">
+    <testCase name="handles hover state" duration="103"/>
+    <testCase name="it render the nav icon as well as label" duration="20"/>
+    <testCase name="Left icon" duration="14"/>
+    <testCase name="Right icon" duration="16"/>
+    <testCase name="teststate" duration="11"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Blank/index.test.tsx">
+    <testCase name="renders  blank component" duration="50"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Typography/index.test.tsx">
+    <testCase name="render Text passed from prop" duration="83"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Button/index.test.tsx">
+    <testCase name="it is renders Button" duration="296"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/tabs/index.test.tsx">
+    <testCase name="it should renders 2 tabw for 2 length data" duration="350"/>
+    <testCase name="this should have green indicator color for currently reading tab by default" duration="76"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Footer/index.test.tsx">
+    <testCase name="Footers" duration="224"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Icons/index.test.tsx">
+    <testCase name="it should be render passed icon" duration="75"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Images/index.test.tsx">
+    <testCase name="it has renders Images" duration="71"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Header/index.test.tsx">
+    <testCase name="Headers it search-state-button button should be clickable" duration="531"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Input/index.test.tsx">
+    <testCase name="Inputs Components" duration="129"/>
+    <testCase name="it should render input element" duration="52"/>
+    <testCase name="should be able to type in input" duration="28"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/Search/index.test.tsx">
+    <testCase name="it should renders input box" duration="178"/>
+    <testCase name="it should render filtered result of length 2 for Employee search" duration="168"/>
+  </file>
+</testExecutions>
